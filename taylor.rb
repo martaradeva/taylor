@@ -11,7 +11,7 @@ def sine(x, p)
 end 
 
 def cosine(x, p)
-  # calculate cosine by sheer laziness
+  # calculate cosine by sheer laziness. U MAD?
   sin = sine(x,p)
   cos = sqrt(1-(sin*sin))
   puts "cos" x "="cos
